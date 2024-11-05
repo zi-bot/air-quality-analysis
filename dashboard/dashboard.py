@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 import plotly.express as px
 
-merged_data = pd.read_csv("cleaned_data.csv")
+merged_data = pd.read_csv("data/cleaned_data.csv")
 
 merged_data.head()
 
